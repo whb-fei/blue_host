@@ -1,0 +1,25 @@
+Bluetooth Host Help
+
+Usage: blue_host [OPTION] [PAR]
+Bluetooth Host Controller.
+
+Mandatory arguments to long options are mandatory for short options too.
+	-l, --list                 manually set the serial port property
+	-?, --help                 give this help list
+	-v, --version              print program version
+
+EXAMPLE
+	| -l, --list
+	|		blue_host -l USB0 115200 8 1 n
+	|		blue_host --list USB0 115200 8 1 n
+	|
+	| -?, --help
+	|		blue_host -?
+	|		blue_host --help
+	|
+	| -v, --version
+	|		blue_host -v
+	|		blue_host --version
+
+
+Report blue_host bugs to wang.hongbo@ivt.com
